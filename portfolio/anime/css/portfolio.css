@@ -1,0 +1,48 @@
+figure{
+	float:left;
+	margin-left:15px;
+	overflow:hidden;
+}
+figure img{
+	margin-left:-0px;
+}
+
+figure
+{
+	-webkit-opacity: 0.80;
+	-moz-opacity: 0.80;
+	opacity: 0.80;
+  
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+figure:hover
+{
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+
+/*border:3px solid #131313;*/
+div.fadehover {
+	position: relative;
+	}
+img.a{
+	margin:3em 0;
+	margin-left:50px;
+}
+img.b{
+	margin:3em 0;
+	margin-left:50px;
+}
+img.a {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	}	
+img.b {
+	left: 0;
+	top: 0;
+	}

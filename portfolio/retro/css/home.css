@@ -1,0 +1,27 @@
+/*Position*/
+figure{
+	float:left;
+	margin-left:15px;
+	overflow:hidden;
+}
+
+figure img{
+	margin-left:-0px;
+}
+/*Filter*/
+figure
+{
+	-webkit-opacity: 0.80;
+	-moz-opacity: 0.80;
+	opacity: 0.80;
+  
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+figure:hover
+{
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}

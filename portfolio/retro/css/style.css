@@ -1,0 +1,119 @@
+/*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
+header, section, footer, aside, article, figure {
+	display: block;
+}
+.container {
+	width: 960px;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+
+body {
+	background: #dcdcdb;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-color: #cccccc;
+	color:#FFFFFF;
+	font-size: 10px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+article{
+	background: url("../img/transbg.png") repeat scroll 0% 0% transparent;
+	box-shadow: none;
+	margin:2em 0;
+	padding:20px;
+}
+
+h2 {
+	font-size:30px;
+	line-height:1.2em;
+	font-weight:normal;
+	margin-bottom:22px;
+}
+h3 {
+	font-size:1em;
+	margin-bottom:4px;
+}
+a, a:visited {
+	color: rgb(218, 169, 77);
+	text-decoration:none;
+}
+a:hover, a:active {
+	color:#FFFFFF;
+	text-decoration:none;
+	
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+hr, .hr{
+display: block;
+height: 2px;
+border: 0px none;
+background-image: url(../img/hr.png);
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.side-menu {
+	list-style: none; /* this removes the list marker */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+
+/* our menu styles */
+#sticky_navigation_wrapper {
+height:50px; 
+}
+#sticky_navigation ul li {
+display:inline; 
+}
+#sticky_navigation ul li a {
+    padding:0px 25px;
+    line-height:50px;
+}
+#sticky_navigation {
+	background: url("../img/transbg.png") repeat scroll 0% 0% transparent;
+	box-shadow: none;
+	width:100%;
+	z-index: 100000;
+}
+
+.display {
+	padding: 10px 60px;
+	width: 840px;
+	float: left;
+}
+
+.sidebar {
+	float: right;
+	width: 300px;
+	padding-bottom: 10px;
+}
+.content {
+	padding: 10px 25px;
+	width: 560px;
+	float: left;
+}
+.content ul, .content ol {
+	padding: 0 15px 15px 40px;
+}
+
+footer {
+	background: url("../img/transbg.png") repeat scroll 0% 0% transparent;
+	text-align: center;
+	padding: 100px 0;
+	clear: both;
+}

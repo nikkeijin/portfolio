@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Perfectionist</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/portfolio.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+</head>
+
+<body>
+
+<!--HEADER-->
+<header>
+    <ul class="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="watching.html">Watching</a></li>
+      <li><a href="watched.html">Watched</a></li>
+    </ul>
+</header>
+<!--HEADER-->
+
+<div class="container">
+
+<!--ARTICLE-->
+	<article class="content">
+	<h2>Watched</h2>
+	<section>
+	<!-- start -->
+	<hr class="divider" />
+<div class="fadehover">
+<a href="#" target="_blank"><img src="img/watched/1.jpg" alt="" class="a" /></a>
+<a href="#" target="_blank"><img src="img/watched/1_h.jpg" alt="" class="b" /></a>
+</div>
+	<!-- end -->
+	<!-- start -->
+	<hr class="divider" />
+<div class="fadehover">
+<a href="#" target="_blank"><img src="img/watched/2.jpg" alt="" class="a" /></a>
+<a href="#" target="_blank"><img src="img/watched/2_h.jpg" alt="" class="b" /></a>
+</div>
+	<!-- end -->
+	<!-- start -->
+	<hr class="divider" />
+<div class="fadehover">
+<a href="#" target="_blank"><img src="img/portfolio/404.jpg" alt="" class="a" /></a>
+<a href="#" target="_blank"><img src="img/portfolio/404_h.jpg" alt="" class="b" /></a>
+</div>
+	<!-- end -->
+	<!-- start -->
+	<hr class="divider" />
+<div class="fadehover">
+<a href="#" target="_blank"><img src="img/portfolio/404.jpg" alt="" class="a" /></a>
+<a href="#" target="_blank"><img src="img/portfolio/404_h.jpg" alt="" class="b" /></a>
+</div>
+	<!-- end -->
+
+
+<script type='text/javascript'>
+$(document).ready(function(){
+
+$("img.a").hover(
+function() {
+$(this).stop().animate({"opacity": "0"}, "slow");
+},
+function() {
+$(this).stop().animate({"opacity": "1"}, "slow");
+});
+
+});
+</script>
+	</section>
+	</article>
+<!--ARTICLE-->
+
+</div>
+
+<!--FOOTER-->
+<footer>
+	<div class="container">
+    <p>Page Designed and Coded by <a href="mailto:">Sugawara David</a></p>
+    <address>
+      <a href="https://nikkeijin.github.io/portfolio/" target="_">https://nikkeijin.github.io/portfolio/</a>
+    </address>
+	</div>
+</footer>	
+<!--FOOTER-->
+
+</body>
+</html>

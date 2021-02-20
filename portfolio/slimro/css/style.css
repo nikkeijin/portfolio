@@ -1,0 +1,75 @@
+/*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
+header, section, footer, aside, article, figure {
+	display: block;
+}
+body {
+	background-color: #1e1e1e;
+	color: #FFFFFF;
+	font: 14px/18px "Times New Roman", Times, serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+a img {border: none;}
+a, a:visited {color:#00c6ff;text-decoration:none;}
+a:hover, a:active {color:#FFFFFF;text-decoration:none;-webkit-transition: all 1s ease;-moz-transition: all 1s ease;-ms-transition: all 1s ease;-o-transition: all 1s ease;transition: all 1s ease;}
+
+.container {
+	width: 960px;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+.sidebar {
+	float: right;
+	width: 300px;
+	padding-bottom: 10px;
+}
+.content {
+	padding: 10px 25px;
+	width: 560px;
+	float: left;
+}
+.content ul, .content ol {
+	padding: 0 15px 15px 40px;
+}
+.footer {
+	background: url(../img/bg.jpg) repeat;
+	text-align: center;
+	clear: both;
+	padding: 100px 0;
+}
+
+header {
+	background: url(../img/bg.jpg) repeat;
+	text-align: center;
+}
+aside{
+}
+article{
+	background:url(../img/bg.jpg) 0 0 repeat;
+	margin:3em 0;
+	padding:20px;
+}
+section{
+}
+footer {
+}
+
+figure{float:left;margin-left:15px;overflow:hidden;}
+figure{-webkit-opacity: 0.80;-moz-opacity: 0.80;opacity: 0.80; -webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;-o-transition: all 0.5s ease;}
+figure:hover{-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;}
+
+hr{
+height: 2px;
+border: 0px none;
+margin: 20px 0px;
+background-image: url(../img/hr.png);
+}
+ul {
+	list-style: none;
+	margin-bottom: 15px;
+}
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
